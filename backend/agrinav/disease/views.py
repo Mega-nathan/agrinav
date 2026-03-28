@@ -2,6 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
-
-def MarketHealth(req):
-    return HttpResponse('Market Health Working fine')
+def diseaseHealth(req):
+    return HttpResponse(' Disease Health Working fine')
